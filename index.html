@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="header">
+            <div class="general-header container">
+                <div class="logo">
+                    <h1>N A T U R E</h1>
+                </div>
+
+                <div class="main-header">
+                    <ul class="header-list">
+                        <li class="header-item">
+                            <a href="#" class="header-link">ANIMAIS</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#" class="header-link">FLORESTAS</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#" class="header-link">MONTANHAS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--BANNER-->
+    <article class="c-carousel c-carousel-simple container">
+        <div class="c-carousel-slides js-carousel-simple">
+            <article class="c-carousel-slide">
+                <div class="banner">
+                    <img src="./img/banner-florestas-nature.jpg" alt="" class="img-banner" />
+                    <div class="text-banner">
+                        <h2>FLORESTAS</h2>
+                    </div>
+                </div>
+            </article>
+            <article class="c-carousel-slide">
+                <div class="banner">
+                    <img src="./img/banner-montanhas-nature.jpg" alt="" class="img-banner" />
+                    <div class="text-banner">
+                        <h2>MONTANHAS</h2>
+                    </div>
+                </div>
+            </article>
+            <article class="c-carousel-slide">
+                <div class="banner">
+                    <img src="./img/banner-animais-nature.jpg" alt="" class="img-banner" />
+                    <div class="text-banner animais">
+                        <h2>ANIMAIS</h2>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="js-carousel-simple-dots" role="tablist"></div>
+    </article>
+
+    <!--Animais-->
+    <div class="div-general container">
+        <div class="div-small container-md">
+            <h1>Animais Espirituais</h1>
+            <div class="button">
+                <button class="buttoncenter"  onclick="img01();">FOX</button>
+                <button class="buttoncenter"  onclick="img02();">FIREFOX</button>
+                <button class="buttoncenter"  onclick="img03();">WOLF</button>
+            </div>
+            <div class="main">
+                <div class="image">
+                    <ul>
+                        <li>
+                            <img src="img/imagem-animais-fox-nature.jpg" alt="" onclick="img01();">
+                        </li>
+                        <li>
+                            <img src="img/imagem-animais-firefox-nature.jpg" alt="" onclick="img02();">
+                        </li>   
+                        <li>
+                            <img src="img/imagem-animais-wolf-nature.jpg" alt="" onclick="img03();">
+                        </li>
+                    </ul>
+                    <img src="img/imagem-animais-fox-nature.jpg" alt="" id="swapimg">
+                </div>
+                <div class="text">
+                    <div class="size1">
+                        <h2>Características</h2>
+                        <p>Todavia, a valorização de fatores subjetivos oferece uma interessante oportunidade para verificação das formas de ação.</p>
+                    </div>
+                    <div>
+                        <h2>Habitat</h2>
+                        <p>Todavia, a valorização de fatores subjetivos oferece uma interessante oportunidade para verificação das formas de ação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Florestas-->
+    <div class="div-general2 container">
+        <div class="div-small container-md">
+            <h1>Florestas Termais</h1>
+            <div class="button">
+                <button class="buttoncenter"  onclick="img04();">ESTRADA</button>
+                <button class="buttoncenter"  onclick="img05();">SOL</button>
+                <button class="buttoncenter"  onclick="img06();">VERDE</button>
+            </div>
+            <div class="main2">
+                <div class="image">
+                    <ul>
+                        <li>
+                            <img src="img/Imagem 10.jpg" alt="" onclick="img04();">
+                        </li>
+                        <li>
+                            <img src="img/Grupo 8.jpg" alt="" onclick="img05();">
+                        </li>   
+                        <li>
+                            <img src="img/Imagem 12.jpg" alt="" onclick="img06();">
+                        </li>
+                    </ul>
+                    <img src="img/Imagem 10.jpg" alt="" id="swapimg2">
+                </div>
+                <div class="text2">
+                    <div class="size">
+                        <h2>Características</h2>
+                        <p>Todavia, a valorização de fatores subjetivos oferece uma interessante oportunidade para verificação das formas de ação.</p>
+                    </div>
+                    <div class="size">
+                        <h2>Habitat</h2>
+                        <p>Todavia, a valorização de fatores subjetivos oferece uma interessante oportunidade para verificação das formas de ação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Montanhas-->
+    <div class="div-general container">
+        <div class="div-small container-md">
+            <h1>Montanhas</h1>
+            <div class="button">
+                <button class="buttoncenter" onclick="img07();">PICO</button>
+                <button class="buttoncenter" onclick="img08();">MONTANHA</button>
+                <button class="buttoncenter" onclick="img09();">MONTE</button>
+            </div>
+            <div class="main">
+                <div class="image">
+                    <ul>
+                        <li>
+                            <img src="img/imagem-montanhas-pico-nature.jpg" alt="" onclick="img07();">
+                        </li>
+                        <li>
+                            <img src="img/imagem-montanha-montanha-nature.jpg" alt="" onclick="img08();">
+                        </li>   
+                        <li>
+                            <img src="img/imagem-montanha-monte-nature.jpg" alt="" onclick="img09();">
+                        </li>
+                    </ul>
+                    <img src="img/imagem-montanhas-pico-nature.jpg" alt="" id="swapimg3">
+                </div>
+                <div class="text">
+                    <div>
+                        <h2>Características</h2>
+                        <p>Todavia, a valorização de fatores subjetivos oferece uma interessante oportunidade para verificação das formas de ação.</p>
+                    </div>
+                    <div>
+                        <h2>Habitat</h2>
+                        <p>Todavia, a valorização de fatores subjetivos oferece uma interessante oportunidade para verificação das formas de ação.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="part1  container">
+            <div class="general-footer">
+                <div class="logo logo-footer">
+                    <h1>N A T U R E</h1>
+                </div>
+
+                <div class="main-header">
+                    <ul class="header-list">
+                        <li class="header-item">
+                            <a href="#" class="header-link">ANIMAIS</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#" class="header-link">FLORESTAS</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#" class="header-link">MONTANHAS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="i">
+                    <i class='bx bxl-facebook' style='color:#ffffff'></i>
+                    <i class='bx bxl-instagram' style='color:#ffffff'></i>
+                    <i class='bx bxl-linkedin' style='color:#ffffff'></i>
+                </div>
+            </div>
+            <div class="contact">CONTATO</div>
+            <div class="number">(00) 00000-0000</div>
+        </div>
+        <div class="part2 container">
+            <span>&copy; Nature - todos os direitos reservados</span>
+        </div>
+    </footer>
+
+    <!-- glider -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <!--Js-->
+    <script src="./js/index.js"></script>
+</body>
+</html>
